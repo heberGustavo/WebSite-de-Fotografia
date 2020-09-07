@@ -12,22 +12,29 @@
     <link rel="stylesheet" href="css/carrossel.css">
 
     <link rel="stylesheet" href="css/style.css">
-    <style>
 
-    </style>
+    <!--ICONES-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
+    <!-- EFEITOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
     <header>
         <nav class="stroke">
-            <div class="container">
+            <div class="container d-flex">
                 <!--Menu Normal-->
-                <ul class="logo">
+                <ul class="logo align-self-center">
                     <li>
-                        <img src="img/logo.png" alt="">
+                        <img id="logo-branca" src="img/logo-branca.jpg" alt="">
+                        <img id="logo-preta" src="img/logo.png" alt="">
                     </li>
                 </ul>
-                <ul id="conteudo-menu-web" class="menus">
+                <ul id="conteudo-menu-web" class="menus align-self-center">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Biografia</a></li>
                     <li><a href="#">Depoimentos</a></li>
@@ -196,13 +203,13 @@
 
         <section id="bio">
             <div class="container text-center">
-                <div class="row espacamento-linha">
+                <div class="row espacamento-linha" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
                     <div class="col-md-12">
                         <img class="perfil" src="img/perfil.jpg" alt="">
                     </div>
                     <div class="col-md-12 descricao padding-center">
                         <div class="principal">
-                            <h2>LUCAS CASTRO</h2>
+                            <h2 class="cor-principal">LUCAS CASTRO</h2>
                             <span>Fotógrafo profissional</span>
                         </div>
                         <p>
@@ -224,9 +231,9 @@
         <section id="depoimentos" class="text-center">
             <div class="container">
                 <div class="row espacamento-linha">
-                    <div class="col-md-4 item">
+                    <div class="col-md-4 item" data-aos="fade-down-right" data-aos-delay="100" data-aos-duration="1000">
                         <img class="foto" src="img/foto_02.jpg" alt="">
-                        <h3>Mulher & Homem</h3>
+                        <h3 class="cor-principal">Mulher & Homem</h3>
                         <p class="depoimento">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolorem
                             itaque ducimus fugit
                             consequatur alias ipsam eaque! Distinctio, quam. Esse cupiditate perferendis harum laborum
@@ -238,9 +245,9 @@
                             "
                         </p>
                     </div>
-                    <div class="col-md-4 item">
+                    <div class="col-md-4 item" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
                         <img class="foto" src="img/foto_01.jpg" alt="">
-                        <h3>Monique</h3>
+                        <h3 class="cor-principal">Monique</h3>
                         <p class="depoimento">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolorem
                             itaque ducimus fugit
                             consequatur alias ipsam eaque! Distinctio, quam. Esse cupiditate perferendis harum laborum
@@ -252,9 +259,9 @@
                             "
                         </p>
                     </div>
-                    <div class="col-md-4 item">
+                    <div class="col-md-4 item" data-aos="fade-down-left" data-aos-delay="100" data-aos-duration="1000">
                         <img class="foto" src="img/foto_04.jpg" alt="">
-                        <h3>Mulher & Homem</h3>
+                        <h3 class="cor-principal">Mulher & Homem</h3>
                         <p class="depoimento">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolorem
                             itaque ducimus fugit
                             consequatur alias ipsam eaque! Distinctio, quam. Esse cupiditate perferendis harum laborum
@@ -276,9 +283,9 @@
 
         <section id="fotos">
             <div class="container">
-                <div class="row espacamento-linha">
+                <div class="row espacamento-linha" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                     <div class="col-md-12 padding-center text-center">
-                        <h2>Algumas Histórias</h2>
+                        <h2 class="cor-principal display-4">Algumas Histórias</h2>
                         <span>que passaram pelas minhas lentes</span>
                     </div>
                 </div>
@@ -292,71 +299,71 @@
                         </div>
 
                         <div id="portfolio">
-                            <div class="tile scale-anm web all">
+                            <div class="tile scale-anm web all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2019/12/02/07/07/autumn-4667080_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm bcards all">
+                            <div class="tile scale-anm bcards all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/09/01/06/10/lake-5534341_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm web all">
+                            <div class="tile scale-anm web all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/09/02/03/26/iphone-5537230_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm web all">
+                            <div class="tile scale-anm web all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/09/01/09/46/portrait-5534757_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm flyers all">
+                            <div class="tile scale-anm flyers all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/03/31/16/02/hoian-4988319_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm bcards all">
+                            <div class="tile scale-anm bcards all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/02/21/18/44/cosmos-4868376_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm flyers all">
+                            <div class="tile scale-anm flyers all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/08/31/00/33/guitar-5531027_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm flyers all">
+                            <div class="tile scale-anm flyers all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/08/25/11/27/flowers-5516493_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm web all">
+                            <div class="tile scale-anm web all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97290&w=200&h=290"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm flyers all">
+                            <div class="tile scale-anm flyers all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/08/27/07/31/restaurant-5521372_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm web all">
+                            <div class="tile scale-anm web all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/09/01/17/19/goat-5535783_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm bcards all">
+                            <div class="tile scale-anm bcards all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2018/03/06/20/25/dog-3204497_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm web all">
+                            <div class="tile scale-anm web all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/08/14/23/33/child-5489290_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm bcards all">
+                            <div class="tile scale-anm bcards all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/08/30/00/05/park-5528190_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm web all">
+                            <div class="tile scale-anm web all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/06/14/19/43/cow-5299176_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm web all">
+                            <div class="tile scale-anm web all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/04/10/15/26/moss-5026256_960_720.jpg"
                                     alt="" />
                             </div>
-                            <div class="tile scale-anm bcards all">
+                            <div class="tile scale-anm bcards all" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
                                 <img src="https://cdn.pixabay.com/photo/2020/01/31/07/10/billboards-4807268_960_720.jpg"
                                     alt="" />
                             </div>
@@ -369,35 +376,159 @@
         </section>
 
         <section id="contato">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-md-12 descricao padding-center">
-                        <div class="principal espacamento-linha">
-                            <h2>CONTATO</h2>
-                            <span>"O <strong>Fotógrafo</strong> tem a mesma <strong>missão</strong> do Poeta: <strong>Eternizar o momento que passa</strong>."</span>
-                        </div>
 
-                        <form class="text-left">
-                            <div class="form-group">
-                              <label for="exampleInputEmail1">Email address</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <div class="container">
+                <div class="row py-5 mt-4 align-items-center">
+                    <div class="col-md-12 text-center" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+                        <h2 class="cor-principal display-4">Contato</h2>
+                        <span>O <strong>Fotógrafo </strong>
+                            tem a mesma <strong>missão </strong>
+                            do poeta: <strong>Eternizar o momento que passa!</strong></span>
+                    </div>
+                    <div class="col-md-6 pr-lg-5 mb-5 mb-md-0" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                        <div class="imagem">
+                            <div class="block">
+                                <div class="side -main"></div>
+                                <div class="side -left"></div>
                             </div>
-                            <div class="form-group">
-                              <label for="exampleInputPassword1">Password</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <div class="block">
+                                <div class="side -main"></div>
+                                <div class="side -left"></div>
                             </div>
-                            <div class="form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            <div class="block">
+                                <div class="side -main"></div>
+                                <div class="side -left"></div>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                          </form>
+                        </div>
+                    </div>
+
+                    <!-- Registeration Form -->
+                    <div class="col-md-6 col-lg-6 ml-auto" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+                        <form action="#">
+                            <div class="row">
+
+                                <!-- Nome -->
+                                <div class="input-group col-lg-6 mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                            <i class="fa fa-user text-muted"></i>
+                                        </span>
+                                    </div>
+                                    <input id="name" type="text" name="name" placeholder="Nome"
+                                        class="form-control bg-white border-left-0 border-md">
+                                </div>
+
+                                <!-- Sobrenome -->
+                                <div class="input-group col-lg-6 mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                            <i class="fa fa-user text-muted"></i>
+                                        </span>
+                                    </div>
+                                    <input id="sobrenome" type="text" name="sobrenome" placeholder="Sobrenome"
+                                        class="form-control bg-white border-left-0 border-md">
+                                </div>
+
+                                <!-- Email -->
+                                <div class="input-group col-lg-12 mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                            <i class="fa fa-envelope text-muted"></i>
+                                        </span>
+                                    </div>
+                                    <input id="email" type="email" name="email" placeholder="Email Address"
+                                        class="form-control bg-white border-left-0 border-md">
+                                </div>
+
+                                <!-- Telefone -->
+                                <div class="input-group col-lg-12 mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                            <i class="fa fa-phone-square text-muted"></i>
+                                        </span>
+                                    </div>
+                                    <input id="telefone" type="tel" name="telefone" placeholder="Telefone"
+                                        class="form-control bg-white border-md border-left-0 pl-3">
+                                </div>
+
+
+                                <!-- Tipo de Evento -->
+                                <div class="input-group col-lg-12 mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                            <i class="fas fa-camera-retro text-muted"></i>
+                                        </span>
+                                    </div>
+                                    <input id="tipoEvento" type="tel" name="tipoEvento" placeholder="Tipo de Evento"
+                                        class="form-control bg-white border-md border-left-0 pl-3">
+                                </div>
+
+                                <!-- Mensagem -->
+                                <div class="input-group col-lg-12 mb-12 mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                            <i class="fas fa-comment-dots text-muted"></i>
+                                        </span>
+                                    </div>
+                                    <textarea name="mensagem" id="mensagem" rows="4" class="form-control" placeholder="Informe sua mensagem aqui"></textarea>
+                                </div>
+
+                                <!-- Enviar -->
+                                <div class="botao form-group col-lg-12 mx-auto mb-0">
+                                    <a href="#" class="btn btn-block fundo-principal py-2">
+                                        <span class="font-weight-bold mr-1">Enviar</span>
+                                        <i class="fas fa-paper-plane"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
+
         </section>
 
+        <footer class="fundo-principal">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/logo-branca.jpg" alt="Logo">
+                    </div>
+                    <div class="col-md-4">
+                        <h3>| Menu</h3>
+                        <ul>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                <a href="#">Biografia</a></li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                <a href="#">Depoimentos</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                <a href="#">Fotos</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-double-right"></i>
+                                <a href="#">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 redes-sociais">
+                        <h3>| Redes Sociais</h3>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
     </main>
 
@@ -410,6 +541,8 @@
     <script src="js/carrossel.js"></script>
 
     <script src="js/fotos-portifolio.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <script src="js/main.js"></script>
 </body>
